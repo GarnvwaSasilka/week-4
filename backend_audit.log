@@ -1,0 +1,29 @@
+[WARN] The "pnpm" field in package.json is no longer read by pnpm. The following keys were ignored: "pnpm.overrides". See https://pnpm.io/settings for the new home of each setting.
+
+> @dtc/backend@0.0.1 dev C:\Users\don\ihifix-medusa-lab\my-medusa-store\apps\backend
+> medusa develop
+
+[32minfo[39m:    redisUrl not found. A fake redis instance will be used.
+[32minfo[39m:    Linting project...
+[32minfo[39m:    [Watcher] Using standard dev server (restart on file change)
+[32minfo[39m:    [Watcher] Watching filesystem to reload dev server on file change
+[32minfo[39m:    redisUrl not found. A fake redis instance will be used.
+- Creating server
+[32minfo[39m:    redisUrl not found. A fake redis instance will be used.
+[32minfo[39m:    Skipping instrumentation registration. No register function found.
+[32minfo[39m:    redisUrl not found. A fake redis instance will be used.
+[32minfo[39m:    No link to load from C:\Users\don\ihifix-medusa-lab\my-medusa-store\node_modules\.pnpm\@medusajs+draft-order@2.18._9546965c6de78e1f1421ea50761b9fdf\node_modules\@medusajs\draft-order\.medusa\server\src\links. skipped.
+[33mwarn[39m:    Local Event Bus installed. This is not recommended for production.
+[32minfo[39m:    Locking module: Using "in-memory" as default.
+[32minfo[39m:    No workflow to load from C:\Users\don\ihifix-medusa-lab\my-medusa-store\node_modules\.pnpm\@medusajs+draft-order@2.18._9546965c6de78e1f1421ea50761b9fdf\node_modules\@medusajs\draft-order\.medusa\server\src\workflows. skipped.
+[32minfo[39m:    No subscriber to load from C:\Users\don\ihifix-medusa-lab\my-medusa-store\node_modules\.pnpm\@medusajs+draft-order@2.18._9546965c6de78e1f1421ea50761b9fdf\node_modules\@medusajs\draft-order\.medusa\server\src\subscribers. skipped.
+[32minfo[39m:    No job to load from C:\Users\don\ihifix-medusa-lab\my-medusa-store\node_modules\.pnpm\@medusajs+medusa@2.18.0_@me_3af14717f7b68114999ddf9cbdad44fa\node_modules\@medusajs\medusa\dist\jobs. skipped.
+[32minfo[39m:    No job to load from C:\Users\don\ihifix-medusa-lab\my-medusa-store\node_modules\.pnpm\@medusajs+draft-order@2.18._9546965c6de78e1f1421ea50761b9fdf\node_modules\@medusajs\draft-order\.medusa\server\src\jobs. skipped.
+√ Server is ready on port: 9000 – 9793ms
+[32minfo[39m:    Admin URL → http://localhost:9000/app
+[32minfo[39m:    Publishable API key required in the request header: x-publishable-api-key. You can manage your keys in settings in the dashboard.
+[32mhttp[39m:    POST /store/customers ← - (400) - 70.116 ms
+[32minfo[39m:    Publishable API key required in the request header: x-publishable-api-key. You can manage your keys in settings in the dashboard.
+[32mhttp[39m:    POST /store/customers ← - (400) - 4.571 ms
+[32minfo[39m:    Publishable API key required in the request header: x-publishable-api-key. You can manage your keys in settings in the dashboard.
+[32mhttp[39m:    POST /store/customers ← - (400) - 3.224 ms
